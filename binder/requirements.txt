@@ -1,0 +1,4 @@
+dask[complete]==2022.9.0
+awkward==1.10.0rc3
+dask-awkward==2022.8a1
+jupyter
