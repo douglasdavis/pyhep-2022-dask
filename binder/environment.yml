@@ -19,5 +19,5 @@ dependencies:
   - pooch
   - mamba
   - pip:
-    - dask-awkward=2022.8a1
+    - dask-awkward==2022.8a1
     - dask-histogram
