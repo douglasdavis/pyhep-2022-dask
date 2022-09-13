@@ -1,20 +1,5 @@
-{
+A{
   "data": {
-    "file-browser-filebrowser:cwd": {
-      "path": ""
-    },
-    "dask-dashboard-launcher:individual-progress": {
-      "data": {
-        "route": "individual-progress",
-        "label": "Progress"
-      }
-    },
-    "dask-dashboard-launcher:individual-task-stream": {
-      "data": {
-        "route": "individual-task-stream",
-        "label": "Task Stream"
-      }
-    },
     "layout-restorer:data": {
       "main": {
         "dock": {
@@ -44,22 +29,25 @@
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "dask-dashboard-launcher:individual-task-stream"
+                    "dask-dashboard-launcher:/individual-task-stream"
                   ]
                 },
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "dask-dashboard-launcher:individual-progress"
+                    "dask-dashboard-launcher:/individual-progress"
                   ]
                 }
               ]
             }
           ]
         },
-        "mode": "multiple-document",
         "current": "notebook:talk.ipynb"
+      },
+      "down": {
+        "size": 0,
+        "widgets": []
       },
       "left": {
         "collapsed": false,
@@ -68,23 +56,45 @@
           "filebrowser",
           "running-sessions",
           "dask-dashboard-launcher",
-          "command-palette",
-          "tab-manager"
+          "@jupyterlab/toc:plugin",
+          "extensionmanager.main-view"
         ]
       },
       "right": {
         "collapsed": true,
-        "widgets": []
-      }
-    },
-    "dask-dashboard-launcher": {
-      "url": "DASK_DASHBOARD_URL",
-      "cluster": ""
+        "widgets": [
+          "jp-property-inspector",
+          "debugger-sidebar"
+        ]
+      },
+      "relativeSizes": [
+        0.13738368910782703,
+        0.8626163108921729,
+        0
+      ]
     },
     "notebook:talk.ipynb": {
       "data": {
         "path": "talk.ipynb",
         "factory": "Notebook"
+      }
+    },
+    "dask-dashboard-launcher": {
+      "url": "DASK_DASHBOARD_URL",
+      "cluster": "",
+    },
+    "dask-dashboard-launcher:/individual-task-stream": {
+      "data": {
+        "route": "/individual-task-stream",
+        "label": "Task Stream",
+        "key": "Task Stream"
+      }
+    },
+    "dask-dashboard-launcher:/individual-progress": {
+      "data": {
+        "route": "/individual-progress",
+        "label": "Progress",
+        "key": "Progress"
       }
     }
   },
