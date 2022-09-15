@@ -4,7 +4,8 @@ dask[complete]==2022.9.0
 dask-awkward==2022.8a1
 dask-histogram==2022.8.0
 graphviz
-s3fs
-uproot
-scikit-hep-testdata
 hist[plot]
+ipycytoscape
+s3fs
+scikit-hep-testdata
+uproot
